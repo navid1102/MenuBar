@@ -1,0 +1,78 @@
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+    ::-webkit-input-placeholder{
+        font-size: 11px;
+        color: rgb(204, 204, 204);
+    }
+    
+
+    .form-check-input:checked{
+        background-color: darkslategrey;
+        border: 0;
+    }
+    .form-check-input:focus{
+        color: black;
+        border: 0;
+        outline: 0;
+ 
+        box-shadow: 0 0 0 0.1rem gray !important;
+    }
+    .bbb{
+        background-color: #91ccc1;
+        /* background-color: gray; */
+        border: 1;
+        border-radius: 10px;
+        padding: 10px;
+        color: dark;
+    }
+
+   
+    @keyframes blink {
+        0% {opacity: 1;}
+        50% {opacity: 0;}
+        100%{opacity: 1;}
+    }
+    .blink{
+        animation: blink 1s infinite;
+    }
+    
+    .gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #a1c4fd;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1))
+    }
+    
+    .bg-indigo {
+    background-color: #4835d4;
+    }
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-indigo {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    }
+    }
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-indigo {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    }
+    }
+    

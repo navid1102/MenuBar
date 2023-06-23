@@ -1,0 +1,484 @@
+<!-- <p>reports works!</p>
+<div class="conainer col-3"></div>
+
+<div class="container-sm">
+  <div class="row align-items-start">
+
+    <div class="col-sm-9">
+      <div class="row align-items-end">
+
+        <div class="col-sm-4">
+          <div class="col-sm-3 input-group">
+            <select class="form-select form-select-sm" id="inputGroupSelect04">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+            <div class="input-group-append">
+              <input
+                type="text"
+                class="form-control form-control-sm"
+                aria-label="text input with dropdown button"
+              />
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-sm-4">
+          <label for="group_fromDate">From Date</label>
+    
+          <div class="col-sm input-group" id="group_fromDate">
+            <div class="input-group-append col-4">
+              <input
+                type="text"
+                class="form-control form-control-sm"
+                aria-label="text input with dropdown button"
+              />
+            </div>
+            <button class="btn btn-secondary col-4" type="button"></button>
+            <div class="input-group-append col-4">
+              <input
+                id="innnn"
+                type="text"
+                class="form-control form-control-sm"
+                aria-label="text input with dropdown button"
+              />
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-sm-4">
+          <label for="group_toDate">To Date</label>
+    
+          <div class="col-sm input-group" id="group_toDate">
+            <div class="input-group-append col-4">
+              <input
+                type="text"
+                class="form-control form-control-sm"
+                aria-label="text input with dropdown button"
+              />
+            </div>
+            <button class="btn btn-sm btn-secondary col-4">convert to</button>
+            <div class="input-group-append col-4">
+              <input
+                id="innnn"
+                type="text"
+                class="form-control form-control-sm"
+                aria-label="text input with dropdown button"
+              />
+            </div>
+          </div>
+        </div>
+    
+
+      </div>
+    
+      <div class="row align-items-end mt-3">
+        <div class="col-sm-4">
+          <label for="slect_indent2">Expeditor in Procurement Dept</label>
+          <select
+            name="indent"
+            id="slect_indent2"
+            class="form-select form-select-sm"
+          ></select>
+        </div>
+    
+        <div class="col-sm-4">
+          <label for="slect_indent2">Spare Part Type</label>
+          <select
+            name="indent"
+            id="slect_indent2"
+            class="form-select form-select-sm"
+          ></select>
+        </div>
+    
+        <div class="col-sm-4">
+          <label for="input_no">Indent/Requisition Description</label>
+          <input class="form-control form-control-sm" id="input_no2" />
+        </div>
+    
+       
+      </div>
+    </div>
+
+
+
+
+
+    <div class="col-sm-3">
+    
+          <label for="select_project_name">ProjectName</label>
+          <select
+            class="form-select"
+            multiple
+            aria-label="multiplae select example"
+            id="select_project_name"
+          >
+            <option value="1">one</option>
+            <option value="2">two</option>
+            <option value="3">three</option>
+          </select>
+    
+          
+
+    </div>
+
+  </div>
+</div> -->
+
+<div class="container-sm mt-3">
+  <div class="row d-flex flex-column flex-md-row justify-content-center gap-3">
+    <div class="col">
+      <div class="form-group">
+        <label for="dd">Label Text:</label>
+        <div class="input-group">
+          <select class="select-control" id="inputGroupSelect04">
+            <option selected>Choose...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <input
+            id="dd"
+            type="text"
+            placeholder="No"
+            class="form-control"
+            aria-label="Text input with segmented dropdown button"
+          />
+        </div>
+      </div>
+
+      <label class="mt-3" for="input_ExpeditorInProcurementDept"
+        >Expeditor in Procurement Dept</label
+      >
+      <div class="input-group">
+        <select
+          class="form-select w-100 h-100"
+          id="select_ExpeditorInProcurementDept"
+        >
+          <option selected>Choose...</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="col">
+      <label for="from_date">From Date :</label>
+
+      <div class="input-group w-100">
+        <input
+          id="from_date"
+          placeholder="1402/01/01"
+          type="text"
+          class="form-control"
+          aria-label="Text input with segmented dropdown button"
+        />
+        <button class="btn btn-secondary" type="button">Button</button>
+
+        <input
+          placeholder="2023/03/21"
+          type="text"
+          class="form-control"
+          aria-label="Text input with segmented dropdown button"
+        />
+      </div>
+
+      <label class="mt-3" for="select_SparePartType">Spare Part Type</label>
+      <div class="input-group">
+        <select class="form-select w-100 h-100" id="select_SparePartType ">
+          <option selected>Choose...</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="col">
+      <label for="to_date">To Date : </label>
+
+      <div class="input-group w-100">
+        <input
+          id="to_date"
+          placeholder="1402/01/01"
+          type="text"
+          class="form-control"
+          aria-label="Text input with segmented dropdown button"
+        />
+        <button class="btn btn-outline-secondary" type="button">Button</button>
+
+        <input
+          placeholder="2023/03/21"
+          type="text"
+          class="form-control"
+          aria-label="Text input with segmented dropdown button"
+        />
+      </div>
+
+      <label class="mt-3" for="lbl_IndentRequisitionDescription"
+        >Indent/Requisition</label
+      >
+      <input
+        id="lbl_IndentRequisitionDescription"
+        placeholder="Description"
+        type="text"
+        class="form-control"
+        aria-label="Text input with segmented dropdown button"
+      />
+    </div>
+
+    <div class="col h-100 align-self-stretch">
+      <label for="select_project_name">ProjectName</label>
+      <select
+        class="form-select h-100 align-items-stretch"
+        multiple
+        aria-label="multiplae select example"
+        id="select_project_name"
+      >
+        <option value="1">one</option>
+        <option value="2">two</option>
+        <option value="3">three</option>
+      </select>
+    </div>
+  </div>
+
+  <div
+    class="row d-flex flex-column flex-md-row justify-content-start gap-3 mt-5 align-items-start"
+  >
+    <div class="col align-items-lg-start">
+      <div class="bbb gap-3">
+        <div class="w-100 justify-content-center d-flex">
+          <label class="">Status</label>
+        </div>
+
+        <div class="col bg-opacity-50 bg-white p-1 rounded-1 mt-2">
+          <div class="form-check border-dark mt-1">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+          </div>
+        </div>
+
+        <div class="col bg-opacity-50 bg-white p-1 rounded-1 mt-2">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Checked checkbox
+            </label>
+          </div>
+        </div>
+
+        <div class="col bg-opacity-50 bg-white p-1 rounded-1 mt-2">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Checked checkbox
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+
+      <div class="col">
+        <label class="" for="select_SubStatus">Sub Status</label>
+        <!-- <img src="src/assets/bootstrap-icons-1/0-circle-fill.svg"> -->
+  
+        <i
+          id="icon_help"
+          class="bi bi-question-circle blink justify-content-end ms-2"
+          type="alarm"
+          animation="true"
+          style="font-size: 1rem; color: rgb(231, 27, 54)"
+          (click)="showAlert()"
+        ></i>
+      </div>
+      
+
+
+      <h6 class="p-2 mb-1 fw-normal fs-6 alert alert-warning fon" *ngIf="display">Works for Report & Mng.. Report .</h6>
+
+      <div class="input-group">
+        <select class="form-select w-100 h-100" id="select_SubStatus " multiple>
+          <option selected>Choose...</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="col">
+      <label class="" for="select_Priority">Sub Status</label>
+      <div class="input-group">
+        <select class="form-select w-100 h-100" id="select_Priority">
+          <option selected>Choose...</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+
+      <label class="mt-3" for="lbl_VendorSupplierName"
+        >Vendor/Supplier Name</label
+      >
+      <input
+        id="lbl_VendorSupplierName"
+        placeholder="Vendor or Supplier Name"
+        type="text"
+        class="form-control"
+        aria-label="Text input with segmented dropdown button"
+      />
+
+    </div>
+
+
+    <div class="col">
+      <div class="bbb gap-3">
+        <!-- <div class="w-100 justify-content-center d-flex">
+          <label class="">Status</label>
+        </div> -->
+
+
+        <div class="col bg-opacity-50 bg-white p-1 rounded-1 mt-2">
+          <div class="form-check border-dark mt-1">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="check_LongLead"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Long Lead
+            </label>
+          </div>
+        </div>
+
+
+        <div class="col bg-opacity-50 bg-white p-1 rounded-1 mt-2">
+          <div class="form-check border-dark mt-1">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="check_PEDCOProcurement"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              PEDCO Procurement
+            </label>
+          </div>
+        </div>
+        <hr>
+
+
+
+        <div class="col bg-opacity-50 bg-white p-1 rounded-1 mt-2">
+          <div class="form-check border-dark mt-1">
+            <input
+            class="form-check-input"
+              type="radio"
+              name="myRadio"
+              id="myRadio1"
+              value="option1"
+              id="flexCheckDefault"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              ALL Indents
+            </label>
+          </div>
+        </div>
+
+        <div class="col bg-opacity-50 bg-white p-1 rounded-1 mt-2">
+          <div class="form-check">
+            <input
+            class="form-check-input"
+              type="radio"
+              name="myRadio"
+              id="myRadio2"
+              value="option2"
+              id="flexCheckChecked"
+              
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Just Administrative Items
+            </label>
+          </div>
+        </div>
+
+        <div class="col bg-opacity-50 bg-white p-1 rounded-1 mt-2">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="myRadio"
+              id="myRadio3"
+              value="option3"
+              id="flexCheckChecked"
+              
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Except Administrative Items
+            </label>
+          </div>
+        </div>
+
+
+
+
+      </div>
+      
+    </div>
+
+    <!-- <div class="col">
+      <input
+      class="form-control"
+      >
+    </div> -->
+  </div>
+
+
+  <div class="p-2 d-flex border form-control rounded-2  d-flex mt-3 justify-content-start">
+        <label class="align-self-center" for="">Origin Currency Value</label>
+
+        <div class="btn-group-vertical ms-2" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+          <label class="btn btn-outline-dark" for="btnradio1">Radio 1</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+          <label class="btn btn-outline-dark" for="btnradio2">Radio 2</label>
+        
+          <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+          <label class="btn btn-outline-dark" for="btnradio3">Radio 3</label>
+      </div>
+     
+  
+    
+    
+  </div>
+
+
+
+</div>

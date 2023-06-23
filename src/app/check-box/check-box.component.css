@@ -1,0 +1,19 @@
+.form-check-input:checked{
+    background-color: darkslategrey;
+    border: 0;
+}
+.form-check-input:focus{
+    color: black;
+    border: 0;
+    outline: 0;
+
+    box-shadow: 0 0 0 0.1rem gray !important;
+}
+.bbb{
+    /* background-color: #91ccc1; */
+    background-color: gray;
+    border: 1;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}

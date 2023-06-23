@@ -1,0 +1,110 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation" 
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Reports">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li>
+              <a class="dropdown-item" href="reports">Action</a>
+            </li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- <div class="row mt-5 ms-5 me-5">
+  <div class="col-12 tabel-responsive">
+    <table
+      class="table table-boarder table-striped table-hover table-sm bg-dark table-dark"
+    >
+      <tr>
+        <th>#</th>
+        <th>name</th>
+        <th>price</th>
+        <th>count</th>
+        <th>Functions</th>
+        <th>sub Total</th>
+      </tr>
+
+      <tr *ngFor="let item of items; let rowIndex = index">
+        <td>{{ rowIndex + 1 }}</td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.price }}</td>
+        <td>{{ item.cont }}</td>
+
+        <td>
+          <button
+            type="button"
+            (click)="item.plus()"
+            class="btn btn-primary bg-primary ps-2 pe-2 mt-2 mb-2"
+          >
+            +
+          </button>
+          &nbsp;
+          <button
+            type="button"
+            (click)="item.minus()"
+            class="btn btn-danger bg-danger ps-2 pe-2 mt-2 mb-2"
+          >
+            -
+          </button>
+        </td>
+
+       
+        <td>{{ item.getSubTotal() }}</td>
+      </tr>
+      <tr>
+        <td colspan="6">Total :</td>
+        
+        <td>{{ getTotal() }}</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<select [(ngModel)]="selectedItem">
+  <option [ngValue]="null">select an item...</option>
+  <option *ngFor="let item of numbers" [ngValue]="item">Item {{ item }}</option>
+</select>
+<hr />
+seleted Number={{ selectedItem }} -->
+
+<router-outlet>
+  
+</router-outlet>

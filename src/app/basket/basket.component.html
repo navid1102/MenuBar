@@ -1,0 +1,35 @@
+<p>basket works!</p>
+
+<div class="row">
+  <div class="col-12 tabel-responsive">
+    <table
+      class="table table-boarder table-striped table-hover table-sm table-dark"
+    >
+      <tr>
+        <th>name</th>
+        <th>price</th>
+        <th>count</th>
+        <th>Functions</th>
+        <th>sub Total</th>
+      </tr>
+
+      <tr *ngFor="let item of items">
+        <td>{{ item.name }}</td>
+        <td>{{ item.price }}</td>
+        <td>{{ item.cont }}</td>
+
+        <td>
+          <button type="button" (click)="plus(item)" class="btn btn-primary">
+            +
+          </button>
+          &nbsp;
+          <button type="button" (click)="minus(item)" class="btn btn-primary">
+            +
+          </button>
+        </td>
+
+        <td>{{ item.price * item.cont }}</td>
+      </tr>
+    </table>
+  </div>
+</div>
